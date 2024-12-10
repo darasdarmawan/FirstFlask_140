@@ -1,0 +1,52 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #FF69B4; /* Pink Fanta */
+    color: #FFFFFF; /* Warna teks putih */
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Heading Style */
+h1 {
+    color: #FFFFFF;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Button Style */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #FFFFFF;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1c5986;
+}
+
+/* Link Style */
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ccc;
+}
